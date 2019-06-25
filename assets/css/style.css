@@ -104,6 +104,7 @@ div.foo{
   border-bottom-color:#00B4F1;
   border-bottom-style: groove;
   border-bottom-width: 10px;
+  font-size: 24px;
 }
 #banner{
   width: 960px;
@@ -145,6 +146,7 @@ div.foo{
   border-color: #00B4F1;
   border-width: 6px;
   border-style: groove;
+  font-size: 24px;
 }
 #content img{
   width: 200px;
