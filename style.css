@@ -44,6 +44,7 @@ a.icons{
 }
 #contactInfo{
     display:flex;
+    flex-direction: row;
     justify-content: space-around;
     text-shadow: 2px 2px black;
     font-size: 1rem;
