@@ -1,78 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- Import Google Icon Font-->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import custom CSS -->
+    <link type="text/css" rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/c2231930f2.js"></script>
+
+
+    <!--Let browser know website is optimized for mobile-->
+
 </head>
+
 <body>
-    <div id="container">
-        <div id="head">
-            <div id="banner">
-                <div class="foo">
-                    <span class="letter" data-letter="D">D</span>
-                    <span class="letter" data-letter="A">A</span>
-                    <span class="letter" data-letter="V">V</span>
-                    <span class="letter" data-letter="I">I</span>
-                    <span class="letter" data-letter="D">D</span>
-                    <span class="letter" data-letter=" "> </span>
-                    <span class="letter" data-letter=" "> </span>
-                    <span class="letter" data-letter=" "> </span>
-                    <span class="letter" data-letter="W">W</span>
-                    <span class="letter" data-letter="A">A</span>
-                    <span class="letter" data-letter="R">R</span>
-                    <span class="letter" data-letter="D">D</span>
-                </div>
-                <div class="navBar">
-                      <ul>
-                          <a href="index.html"><li>About Me </li><img src="assets/imgs/line.png" alt="seperator" /></a>
-                          <a href="portfolio.html"><li>Portfolio </li><img src="assets/imgs/line.png" alt="seperator" /></a>
-                          <a href="contact.html"><li>Contact</li></a>
-                      </ul>
-                </div>
-            </div>
+    <nav>
+        <div class="nav-wrapper" id="nav">
+            <a href="#!" class="brand-logo"><img src="imgs/logoSm.png" id="logo"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down" id="largeList">
+                <li><a href="#about">Me, Myself, & I</a></li>
+                <li><a href="#portfolio">Programs</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#about">Me, Myself, & I</a></li>
+                <li><a href="#portfolio">Programs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div id="main">
-            <div id="content">
-                <h2>About Me </h2>
-                <div class="line"><hr></div>
-                <div class="me">
-                    <img src="assets/imgs/myself.jpg" alt="David Ward"/>
-                    <div id="meText">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam id officiis, error dignissimos in vero sunt cumque laudantium iusto dolore saepe voluptatibus distinctio laborum explicabo veritatis nemo. Laborum reiciendis, saepe, tempora voluptate at pariatur autem exercitationem facilis quo maxime adipisci.
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis vitae explicabo voluptates, quasi ad voluptate maiores in, iusto veritatis consequatur sit. Expedita voluptatem et optio reiciendis molestias quam voluptate quidem. Non placeat enim harum repellendus odit a modi distinctio aperiam assumenda voluptatem incidunt natus velit quas doloribus commodi ducimus, quia eum. Doloribus tempora hic commodi incidunt quas illum sit dolores!</p>
+    </nav>
+    <div class="container">
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam id officiis, error dignissimos in vero sunt cumque laudantium iusto dolore saepe voluptatibus distinctio laborum explicabo veritatis nemo. Laborum reiciendis, saepe, tempora voluptate at pariatur autem exercitationem facilis quo maxime adipisci.
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis vitae explicabo voluptates, quasi ad voluptate maiores in, iusto veritatis consequatur sit. Expedita voluptatem et optio reiciendis molestias quam voluptate quidem. Non placeat enim harum repellendus odit a modi distinctio aperiam assumenda voluptatem incidunt natus velit quas doloribus commodi ducimus, quia eum. Doloribus tempora hic commodi incidunt quas illum sit dolores!</p>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
+        <div id="about">
+            <div class="row">
+                <div class="center">
+                    <h1>{About Me}</h1>
+                    <hr>
+                </div>
+                <div class="col s12 m6" id="leftSideMe">
+                    <div class="card" id="roboCard">
+                        <img src="./imgs/robotTrans.png" id="robot" alt="robot">
+                        <div class="content" id="roboContent">
+                            <h3>The Start </h3>
+                            <p>I started this journey in California. I went to school for animation. I feel in love with
+                                the creativity and problem solving of the physics of animation. As my education moved
+                                into the 3d realm, I discovered python as a scripting language. I took to it as a bug to
+                                a flame.</p>
+                        </div>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam id officiis, error dignissimos in vero sunt cumque laudantium iusto dolore saepe voluptatibus distinctio laborum explicabo veritatis nemo. Laborum reiciendis, saepe, tempora voluptate at pariatur autem exercitationem facilis quo maxime adipisci.
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis vitae explicabo voluptates, quasi ad voluptate maiores in, iusto veritatis consequatur sit. Expedita voluptatem et optio reiciendis molestias quam voluptate quidem. Non placeat enim harum repellendus odit a modi distinctio aperiam assumenda voluptatem incidunt natus velit quas doloribus commodi ducimus, quia eum. Doloribus tempora hic commodi incidunt quas illum sit dolores!</p>
+                    </div>
+                    <div class="card" id="birdCard">
+                        <div class="birdContent" id="birdContent">
+                            <h3>Current</h3>
+                            <p>This helped with my current job as a Implementor for a local time and attendance
+                                reseller. As I got use to writing calls in python to the Time and Attendance software, I
+                                discovered as I dived deeper into the API that I really need to build a front end for
+                                our clients to access data outside of the software on occasion. I decided to seek more.
+                                I joined UNH Coding Boot Camp for Full Stack Development.</p>
+                        </div>
+                        <div class="birdCage" id="birdCage">
+                            <img src="./imgs/birdTrans.png" class="right" id="bird" alt="">
+                        </div>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur asperiores culpa nam voluptatibus accusamus error expedita a nobis! Molestiae ea magnam numquam labore ad, doloribus molestias suscipit. Repellat numquam provident vel, perspiciatis assumenda dolores ipsa enim quis accusamus quo.</p>
-
-                        <p>yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii ooooooooooooooooooooooooooooo.</p>
-                    
+                    </div>
+                </div>
+                <div class="col s12 m6" id="rightSideMe">
+                    <div id="imgHolderMe">
+                        <img src="./imgs/me.png" class="card img" id="me" alt="robot">
+                    </div>
+                </div>
+                <div class="card" id="catCard">
+                    <img src="./imgs/CatTrans.png" id="cat" alt="robot">
+                    <div id="catContent">
+                        <h3>Hopeful</h3>
+                        <p>After 9 weeks into the program, I realized this is what I love to do. I am looking
+                            forward to the new opportunities that this education will open for me. Until then it
+                            will be great to use the extra knowledge to make my current situation better.</p>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="center">
+                <h1>{Portfolio}</h1>
+                <hr>
+            </div>
+
+            <div class="row">
+                <div id="portCarol">
+                    <div class="carousel carousel-slider center">
+                    <div class="carousel-item blue " href="#one!" id="#one">
+                        <div class="col s12 m4 blue"></div>
+                        <div class="col s12 m4 blue">
+                            <div class="card medium blue hoverable">
+                                <div class="card-image">
+                                    <img src="./imgs/portfolioimgs/SMplace1.jpg">
+                                    <span class="card-title">"What's the Movie" Guess Game </span>
+                                </div>
+                                <a href="#" class="btn cbuttons hoverable">Demo</a><a href="#"
+                                    class="btn cbuttons hoverable">Code</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item amber white-text" href="#two!" id="#two">
+                        <div class="col s12 m4"></div>
+                        <div class="col s12 m4 amber">
+                            <div class="card medium amber hoverable">
+                                <div class="card-image amber">
+                                    <img src="./imgs/portfolioimgs/SMplace2.jpg">
+                                    <span class="card-title">Smash Brother Fighter</span>
+                                </div>
+                                <a href="#" class="btn cbuttons hoverable">Demo</a><a href="#"
+                                    class="btn cbuttons hoverable">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item green white-text" href="#three!" id="#three">
+                        <div class="col s12 m4 "></div>
+                        <div class="col s12 m4 green">
+                            <div class="card medium green hoverable">
+                                <div class="card-image green">
+                                    <img src="./imgs/portfolioimgs/SMplace3.jpg">
+                                    <span class="card-title">Rock Paper Scissors Lizard Spock</span>
+                                </div>
+                                <a href="#" class="btn cbuttons hoverable">Demo</a><a href="#"
+                                    class="btn cbuttons hoverable">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item blue white-text" href="#four!" id="#four">
+                        <div class="col s12 m4"></div>
+                        <div class="col s12 m4 ">
+                            <div class="card medium blue hoverable">
+                                <div class="card-image">
+                                    <img src="./imgs/portfolioimgs/SMplace4.jpg">
+                                    <span class="card-title">NEWT App</span>
+                                </div>
+                                <a href="#" class="btn cbuttons hoverable">Demo</a><a href="#"
+                                    class="btn cbuttons hoverable">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item red white-text" href="#five!" id="#five">
+                        <div class="col s12 m4"></div>
+                        <div class="col s12 m4 cCard red hoverable">
+                            <div class="card medium red">
+                                <div class="card-image red">
+                                    <img src="./imgs/portfolioimgs/SMplace5.jpg">
+                                    <span class="card-title">Train Tracker Logger</span>
+                                </div>
+                                <a href="#" class="btn cbuttons hoverable">Demo</a><a href="#"
+                                    class="btn cbuttons hoverable">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item amber white-text" href="#six!" id="#six">
+                        <div class="col s12 m4"></div>
+                        <div class="col s12 m4 cCard amber">
+                            <div class="card medium amber hoverable">
+                                <div class="card-image amber">
+                                    <img src="./imgs/portfolioimgs/SMplace6.jpg">
+                                    <span class="card-title">Gif Retriever</span>
+                                </div>
+                                <a href="#" class="btn cbuttons hoverable">Demo</a><a href="#"
+                                    class="btn cbuttons hoverable">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item green white-text" href="#seven!" id="#seven">
+                        <div class="col s12 m4"></div>
+                        <div class="col s12 m4 green hoverable">
+                            <div class="card medium green">
+                                <div class="card-image green">
+                                    <img src="./imgs/portfolioimgs/SMplace7.jpg">
+                                    <span class="card-title">Trivia Quiz Game</span>
+                                </div>
+                                <a href="#" class="btn cbuttons hoverable">Demo</a><a href="#"
+                                    class="btn cbuttons hoverable">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="contact">
+            <div class="row">
+                <div class="center">
+                    <h1>{Contact Me}</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row" id="contactInfo">
+                <div class="col s12 m4 center comicBorder">
+                    Phone: <br><a href="tel:2073910296">207-391-2096</a>
+                    <br><br><br>
+                </div>
+                <div class="col s12 m3 comicBorder center">
+                    <div id="address">
+                        1348 Long Plains Rd Buxton ME
+                    </div>
+                    <div id="iconbar">
+                        <div>
+                            <a href="https://github.com/professorx00" class="icons"><i class="fab fa-github-square"></i></a>
+                            <a href="https://github.com/professorx00" id="iconTextGH">Github</a>
+                        </div>
+                        <div >
+                            <a href="www.linkedin.com/in/programmingdad" class="icons"><i class="fab fa-linkedin"></i></a>
+                            <a href="www.linkedin.com/in/programmingdad" id="iconTextLI">Linkedin</a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="col s12 m4 center comicBorder">
+                    E-mail: <br><a href="mailto: programmingdad@gmail.com">programmingdad@gmail.com</a>
+                    <br><br><br>
+                </div>
+            </div>
 
         </div>
-        <div id="push"> </div>
     </div>
-    <div id="footer">
-        Copyright &copy;
-    </div>
-    
+
+
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>

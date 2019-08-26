@@ -1,0 +1,186 @@
+@import url("https://use.typekit.net/hvr7iwf.css");
+html, body {
+    background-image: linear-gradient(111.30948642272563deg, rgba(180, 155, 20, 1) 10.430288021595901%, rgba(178, 154, 20, 1) 10.430288021595901%, rgba(0, 118, 22, 1) 30.256264488775%, rgba(0, 118, 22, 1) 81.55835354136164%) !important;
+    font-family: paralucent, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.10rem;
+}
+
+h1 {
+    text-shadow: 2px 2px black;
+    font-family: ocr-a-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    background: -webkit-linear-gradient(#a11b18, #e1dab0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+div.comicBorder {
+    border: 3px solid black;
+    background: #025d54;
+    color: #e1dab0;
+    height: 100%;
+}
+
+div#portCarol{
+    border:3px solid black;
+}
+
+#iconbar {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+}
+#iconTextGH, #iconTextLI{
+    font-size: .5rem;
+
+}
+a.icons{
+    font-size: 3rem;
+
+}
+#contactInfo{
+    display:flex;
+    justify-content: space-around;
+    text-shadow: 2px 2px black;
+    font-size: 1rem;
+    font-family: ocr-a-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav {
+    background-color: #025d54 !important;
+    border: 2px black solid;
+    padding-bottom: 5rem;
+    font-family: ocr-a-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    border: 3px black solid;
+    align-items: middle;
+}
+#largeList{
+    
+}
+
+/*About Me Section*/
+
+#about {
+    margin-top: 5rem;
+    height: 100vh;
+    height: 100%;
+}
+
+/*left Side of About Me*/
+
+#leftSideMe {
+    padding: 1rem;
+}
+
+/*Right Side of About Me*/
+
+#rightSideMe {
+    background-color: #dfd391;
+    border: 4px black solid;
+    margin-bottom: 2rem;
+}
+
+#imgHolderMe {
+    display: flex;
+    background-color: #dfd391;
+    border: none;
+}
+
+#me {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e1dab0;
+    border: 4px black solid;
+}
+
+#birdCard {
+    background-color: #025d54;
+    border: 4px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+#birdContent {
+    padding: 1rem;
+}
+
+#bird {
+    width: 40%;
+}
+
+#cat {
+    width: 30%;
+}
+
+#catCard {
+    display: flex;
+    border: 4px black solid;
+    background-color: #a11b18;
+}
+
+#roboCard {
+    display: flex;
+    border: 4px black solid;
+    background-color: #bba015;
+}
+
+#roboContent {
+    padding: 1rem;
+}
+
+/* Portfolio*/
+
+#portfolio {
+    margin-top: 3rem;
+    height: 100vh;
+    height: 100%;
+}
+
+#portfolio img {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*.cbuttons {
+    margin-top: 4rem;
+}
+
+div.cCard {
+    background-color: #a11b18;
+}
+
+*.card-title {
+    text-shadow: black 2px 2px;
+    background: #af1c1a3a;
+    width: 100%;
+    
+}
+
+#contact {
+    height: 100vh;
+    height: 100%;
+    margin-top: 3rem;
+}
+
+#logo {
+    height: 50%;
+}
+
+#nav {
+    height: 75px !important;
+}
+
+a.brand-logo {
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
