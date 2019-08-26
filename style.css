@@ -185,3 +185,22 @@ a.brand-logo {
     margin-left: 1rem;
     margin-top: .5rem;
 }
+
+@media only screen and (max-width: 600px){
+    html, body{
+        width:100%;
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    #contactInfo{
+    display:flex;
+    flex-direction: column;
+    text-shadow: 2px 2px black;
+    font-size: 1rem;
+    font-family: ocr-a-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+}
